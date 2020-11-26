@@ -17,7 +17,7 @@ Tuy mạnh mẽ nhưng thành phần chính của Transformer lại chỉ dựa 
 2. Kĩ thuật Attention (Attention mechanism)
 3. Transformer
 
-## Mô hình Encoder-Decoder Sequence to Sequence (Seq2Seq)
+# Mô hình Encoder-Decoder Sequence to Sequence (Seq2Seq)
 
 Năm 2014, Google lần đầu tiên đề xuất [mô hình  Seq2Seq](https://arxiv.org/pdf/1409.3215.pdf). Mô hình này  mã hóa  (encode) một  chuỗi đầu vào thành một vector, rồi sau đó giải mã (decode) vector đó để cho ra chuỗi đầu ra.  
 
@@ -40,7 +40,7 @@ Mô hình Seq2Seq hoạt động rất hiệu quả đối với chuỗi đầu 
 
 Để hiểu hơn về Seq2Seq ta có thể xem một [tutorial](https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html) đơn giản và dễ hiểu được viết bởi [Francois Chollet](https://twitter.com/fchollet) hướng dẫn cài đặt Seq2Seq với Keras.
 
-## Kĩ thuật Attention (Attention mechanism)
+# Kĩ thuật Attention (Attention mechanism)
 
 Để khắc phục nhược điểm của mô hình Seq2Seq cổ điển, ta có thể áp dụng một kĩ thuật đơn giản mà hiệu quả mang tên attention.
 
@@ -57,8 +57,11 @@ Molave &emsp;&emsp; was &emsp;&emsp; the &emsp;&emsp; fourth &emsp;&emsp; storm 
 Molave ​​&emsp;&emsp; là &emsp;&emsp; cơn_bão &emsp;&emsp; ________________________.
 
 .
+
 .
+
 Đáp án tham khảo:
+
 Molave ​​&emsp; là &emsp; cơn_bão &emsp; *thứ_tư &emsp; đổ_bộ &emsp; vào &emsp; nước &emsp; ta &emsp; trong &emsp; tháng &emsp; này*.
 
 Rất có thể, ban đầu ta đọc cả câu tiếng anh, rồi nhìn vào câu tiếng Việt thấy câu đã được dịch đến từ "cơn_bão", tiếp đó ta chú ý đến từ "fourth", từ "storm" để có thể dịch và viết từ tiếp theo là từ "thứ_tư" vào câu dịch.
@@ -76,11 +79,11 @@ Ta có thể hiểu rằng, dịch theo lối của mô hình Seq2Seq cổ đi�
 
 Không chỉ được ứng dụng trong NLP, kĩ thuật attention còn được mang vào lĩnh vực computer vision, nhận được quan tâm từ giới nghiên cứu và từ đó cả một họ các kĩ thuật attention ra đời. Dấu ấn lớn nhất là vào năm 2017, bài báo "Attention Is All You" của Google công bố một kiến trúc mạng neuron mới hoàn toàn dựa trên các kĩ thuật attention, kiến trúc này mang tên Transformer.
 
-## Transformer
+# Transformer
 
 Kiến trúc Transformer đơn giản nhưng mạnh mẽ về cả độ chính xác và tốc độ. Nó dựa hoàn toàn vào các kĩ thuật attention và không cần đến các tầng CNN và RNN. Các tầng Add & Norm và Positional Encoding như ta thấy ở hình vẽ bên dưới (từ bài báo "Attention Is All You Need") được thêm vào nhằm góp phần tăng hiệu quả của mô hình. 
 
-![](/assets/images/1_transformer_.png)
+![](/assets/images/1_transformer_.png){: .align-center}
 
 > We propose a new simple network architecture, the Transformer,
 based solely on attention mechanisms, dispensing with recurrence and convolutions
@@ -93,15 +96,19 @@ Sự ra đời của kiến trúc Transformer như một cuộc cách mạng tro
 
 Ở bài viết sau, ta sẽ bàn về chi tiết các kĩ thuật attention được sử dụng trong Transformer, bên cạnh đó là các kĩ thuật khác được sử dụng trong Transformer nhằm tăng hiệu quả của mô hình như residual connection, positional encoding, normalization,...
 
-## Đọc thêm (sắp hoàn thành)
+# Đọc thêm (sắp hoàn thành)
 
 https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html
+
 https://atcold.github.io/pytorch-Deep-Learning/en/week12/12-1/
+
 https://www.coursera.org/lecture/nlp-sequence-models/attention-model-intuition-RDXpX
+
 https://www.youtube.com/watch?v=53YvP6gdD7U&t=120s
+
 https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/
 
-## Tài liệu tham khảo (sắp hoàn thành)
+# Tài liệu tham khảo (sắp hoàn thành)
 
 
 [public repository][dill]
