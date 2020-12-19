@@ -1,4 +1,10 @@
-﻿# Constituency Grammars
+---
+title: "Constituency-Grammars"
+categories:
+  - Bài toán NLP cơ bản
+tags:
+  - constituency
+---
 
 # 1. Constituent
 
@@ -26,8 +32,10 @@ CFG is used for modeling constituent structure.
 
 CFG consists of a set of rules.
 
-img1
-img2
+![rules](/assets/images/2_rules.png){: .align-center}
+
+![](/assets/images/2_parsetreeNrules.png){: .align-center}
+
 
 CFG can be thought in two ways:
 - a device for generating sentences
