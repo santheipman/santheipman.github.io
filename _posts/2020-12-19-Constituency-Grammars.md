@@ -43,7 +43,7 @@ CFG can be thought in two ways:
 
 A formal CFG must have one start symbol **S**.
 
-fig 12.4
+![](/assets/images/2_fig12-4.png){: .align-center}
 
 # 3. Some grammar rules for English
 
@@ -89,8 +89,8 @@ NP &#8594; pre-modifiers &emsp; head &emsp; post-modifiers
 	- V_ed: *the aircraft [used by this flight]*
 	- Relative pronoun: *a flight [that serves breakfast]*
 	- ...
-
-fig12.5
+  
+![](/assets/images/2_fig12-5.png){: .align-center}
 
 ## 3.3 Verb Phrase
 
@@ -98,7 +98,7 @@ Consists of the verb and other constituents (modifiers/complements)
 
 VP &#8594; Verb &emsp; complements
 
-4 lines page 12
+![](/assets/images/2_4lines.png){: .align-center}
 
 Not every verb is compatible with every verb phrase. For example:
 - want:
@@ -109,7 +109,9 @@ Not every verb is compatible with every verb phrase. For example:
 
 Approach to solve the above problem: **subcategorize** verbs into smaller categories
 
-6 lines
+![](/assets/images/2_6lines-1.png){: .align-center}
+
+![](/assets/images/2_6lines-2.png){: .align-center}
 
 > Note: A problem with this approach is the significant increase in the number of rules
 and the associated loss of generality.
@@ -126,7 +128,11 @@ The general form of a coordinate constituent that has type X is:
 
 X &#8594; X conj X
 
-examples [] [] []
+E.g:
+
+![](/assets/images/2_coor-1.png){: .align-center}
+
+![](/assets/images/2_coor-2.png){: .align-center}
 
 
 
